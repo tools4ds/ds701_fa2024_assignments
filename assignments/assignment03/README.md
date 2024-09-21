@@ -9,7 +9,7 @@ If you are doing this homework on Colab, you will have to take these 3 extra ste
 
 1. copy this [zipped test folder](./hw3_tests.rar)
    to your Colab local storage<br>
-2. In colab run the following commands,
+2. In colab run the following commands, <br>
    !pip install rarfile<br>
    !apt-get install unrar<br>
 3. Copy the below code and run it in a cell after the pip installations:
