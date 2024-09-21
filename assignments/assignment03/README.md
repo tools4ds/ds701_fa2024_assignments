@@ -8,16 +8,16 @@ Here is the [notebook](./assignment3.ipynb).
 If you are doing this homework on Colab, you will have to take these 3 extra steps:
 
 1. copy this [zipped test folder](./hw3_tests.rar)
-   to your Colab local storage
+   to your Colab local storage<br>
 2. In colab run the following commands,
-   !pip install rarfile
-   !apt-get install unrar
+   !pip install rarfile<br>
+   !apt-get install unrar<br>
 3. Copy the below code and run it in a cell after the pip installations:
    import rarfile
    import os
    rar_file = 'hw3_tests.rar'  
    with rarfile.RarFile(rar_file) as rf:
-   rf.extractall('test') 
+   rf.extractall('test')<br>
 5. Add another code cell with `!pip install otter-grader`
 
 The last `grader.export` cell will give you an error, but you should be able to
