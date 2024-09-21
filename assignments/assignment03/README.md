@@ -17,7 +17,7 @@ If you are doing this homework on Colab, you will have to take these 3 extra ste
    import os<br>
    rar_file = 'hw3_tests.rar'<br>
    with rarfile.RarFile(rar_file) as rf:<br>
-        rf.extractall('test')<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;rf.extractall('test')<br>
 5. Add another code cell with `!pip install otter-grader`
 
 The last `grader.export` cell will give you an error, but you should be able to
