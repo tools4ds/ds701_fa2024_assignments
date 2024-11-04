@@ -11,7 +11,7 @@ In this midterm, you will:
 3. Build a **shot prediction model**, using machine learning (but no deep learning) with engineered features to improve accuracy.
 4. Participate in a **visualization challenge** to explain insights through creative and informative visualizations.
 
-Part 3 includes a **leaderboard** that ranks participants based on the performance of their prediction models. You get full credit for beating the baseline accuracy score, and bonus points if you're ranked in the top 10.
+Part 3 includes a **leaderboard** that ranks participants based on the performance of their prediction models. You get full credit for beating the **baseline accuracy score of 0.62**, and bonus points if you're ranked in the top 10.
 
 ## Submission Guidelines
 
@@ -138,7 +138,8 @@ plt.show()
   - 5 pts for providing a clear interpretation and explanation of the clusters.
 - **Prediction Task** (10 pts): The leaderboard will rank participants based on their model performance (e.g., accuracy) on a held-out test set.
 
-  - 5 pts for creating and validating a model
+  - 4 pts for creating and validating a model
+  - 1 pt for beating the baseline score of 0.62
   - 5 pts for explanation of feature and model choices
   - 2 bonus pts for finishing top 10 in the leaderboard
 
